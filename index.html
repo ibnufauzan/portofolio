@@ -1,222 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class="scroll-smooth">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibnu Fauzan - Portofolio</title>
+    <title>Portfolio</title>
+    <!-- css -->
+     <link rel="stylesheet" href="src/output.css">
 
-    <!-- Tailwind -->
-    <link rel="stylesheet" href="src/output.css">
-
-    <!-- Font Awesome -->
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/11a5d7d83e.js" crossorigin="anonymous"></script>
-
-    <!-- Meta Description -->
-    <meta name="description" content="Portofolio Ibnu Fauzan, seorang profesional yang menawarkan layanan dalam berbagai bidang. Lihat karya dan layanan yang ditawarkan.">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
 </head>
-<body class="bg-slate-600 text-white">
-    
-    <nav class="bg-white shadow-lg text-black">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between">
-                <div class="flex space-x-4">
-                    <!-- Logo -->
-                    <div>
-                        <a href="#" class="flex items-center py-5 px-2 text-gray-700">
-                            <span class="font-bold">Logo</span>
-                        </a>
-                    </div>
-                    <!-- Primary Nav -->
-                    <div class="hidden md:flex items-center space-x-1">
-                        <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Home</a>
-                        <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">About</a>
-                        <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Services</a>
-                        <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Contact</a>
-                    </div>
-                </div>
-                <!-- Secondary Nav -->
-                <div class="hidden md:flex items-center space-x-1">
-                    <a href="#" class="py-5 px-3">Login</a>
-                    <a href="#" class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Signup</a>
-                </div>
-                <!-- Mobile Button -->
-                <div class="md:hidden flex items-center">
-                    <button class="mobile-menu-button">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile Menu -->
-        <div class="mobile-menu hidden md:hidden">
-            <a href="#" class="block py-2 px-6 text-sm hover:bg-gray-200">Home</a>
-            <a href="#" class="block py-2 px-6 text-sm hover:bg-gray-200">About</a>
-            <a href="#" class="block py-2 px-6 text-sm hover:bg-gray-200">Services</a>
-            <a href="#" class="block py-2 px-6 text-sm hover:bg-gray-200">Contact</a>
-        </div>
-    </nav>
+<body class="bg-slate-950 text-white bg-[url('/src/img/white-marble-texture-with-natural-pattern-background-design-art-work-high-resolution.png')]">
 
-    <header class="mx-5">
-        <section class="py-9">
-            <h1 class="text-2xl">Hi</h1>
-            <p class="text-3xl">I'm Ibnu Fauzan</p>
-        </section>
+    <header class="flex mx-20 mt-10 justify-between items-center font-medium">
+        <ul>
+            <li class="text-2xl">Logo</li>
+        </ul>
 
-        <section class="font-extralight text-sm pb-10">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem ex ab at saepe nostrum dignissimos repellendus voluptatibus obcaecati?</p>
-        </section>
+        <ul class="flex gap-5">
+            <li><a href="">Home</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
 
-        <section class="">
-            <h2 class="font-normal pb-3">Service</h2>
-            <p class="text-sm font-light pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo minus quisquam accusantium similique error laboriosam repellat?</p>
-            <a href="#" class="text-yellow-300">Show More <i class="fa-solid fa-arrow-right"></i></a>
-        </section>
+        <ul class="flex gap-5">
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+   </header>
 
-        <section class="">
-            <ul class="flex gap-4 py-7">
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
-            </ul>
-        </section>
+   <main class="flex mx-20 mt-32 justify-center">
 
-        <section class="text-center flex justify-center pb-10">
-            <img class="rounded-full w-40 h-40" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="Gambar oleh Martin Wettstein">
-        </section>
-    </header>
+    <section class="w-1/2 flex flex-col gap-5 pt-20">
+        <h1 class="font-medium text-lg">Hi, I'm Emad</h1>
+        <h2 class="text-4xl font-bold">I'm Web Designer</h2>
+        <p class="font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab aut magnam quis sunt voluptas? Est eos sapiente fugiat maiores expedita! Eum ipsum voluptas velit ipsam similique omnis beatae laborum vitae?</p>
+        <a href="" class="pl-16 font-medium underline underline-offset-8">View My Project</a>
+    </section>
 
-    <hr class="mx-10">
+    <section class="w-1/3">
+        <img src="src/img/image.png" alt="">
+    </section>
 
-    <main class="py-10 mx-5">
-        <section class="flex flex-col gap-2">
-            <h2>Lorem, ipsum dolor.</h2>
-            <p class="font-light text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum corporis ea assumenda.</p>
-        </section>
+   </main>
 
-        <section class="flex py-6 flex-wrap gap-4 justify-around">
-            <section>
-                <h3 class="font-medium text-2xl text-yellow-300">250+</h3>
-                <p class="font-extralight text-sm">Lorem, ipsum dolor.</p>
-            </section>
-            <section>
-                <h3 class="font-medium text-2xl text-yellow-300">100+</h3>
-                <p class="font-extralight text-sm">Lorem, ipsum dolor.</p>
-            </section>
-            <section>
-                <h3 class="font-medium text-2xl text-yellow-300">30+</h3>
-                <p class="font-extralight text-sm">Lorem, ipsum dolor.</p>
-            </section>
-            <section>
-                <h3 class="font-medium text-2xl text-yellow-300">10+</h3>
-                <p class="font-extralight text-sm">Lorem, ipsum dolor.</p>
-            </section>
-        </section>
+   <main class="bg-slate-900 px-20 py-20">
+        <h1 class="text-2xl pl-24">Project</h1>
 
-        <section class="flex flex-col gap-4">
-            <section class="bg-slate-800 rounded-lg">
-                <section class="px-4 py-4 flex flex-col gap-3">
-                    <h2 class="text-yellow-300">Lorem, ipsum.</h2>
-                    <h3 class="font-light text-sm">Lorem ipsum dolor sit amet.</h3>
-                    <a href="#" class="font-normal text-sm">Show more</a>
-                </section>
-                <img class="rounded-b-lg" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="">
+       <section class="flex flex-wrap pt-20 gap-5 justify-center">
+            <section class="w-1/4">
+               <img src="src/img/clarissa-watson-jAebodq7oxk-unsplash.jpg" alt="">
+
+               <h1>Filter AI</h1>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum sed delectus sapiente inventore, doloremque necessitatibus. Autem, assumenda!</p>
             </section>
 
-            <section class="bg-slate-800 rounded-lg">
-                <section class="px-4 py-4 flex flex-col gap-3">
-                    <h2 class="text-yellow-300">Lorem, ipsum.</h2>
-                    <h3 class="font-light text-sm">Lorem ipsum dolor sit amet.</h3>
-                    <a href="#" class="font-normal text-sm">Show more</a>
-                </section>
-                <img class="rounded-b-lg" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="">
-            </section>
+            <section class="w-1/4">
+                <img src="src/img/debby-hudson-asviIGR3CPE-unsplash.jpg" alt="">
+ 
+                <h1>Filter AI</h1>
+ 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum sed delectus sapiente inventore, doloremque necessitatibus. Autem, assumenda!</p>
+             </section>
 
-            <section class="bg-slate-800 rounded-lg">
-                <section class="px-4 py-4 flex flex-col gap-3">
-                    <h2 class="text-yellow-300">Lorem, ipsum.</h2>
-                    <h3 class="font-light text-sm">Lorem ipsum dolor sit amet.</h3>
-                    <a href="#" class="font-normal text-sm">Show more</a>
-                </section>
-                <img class="rounded-b-lg" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="">
-            </section>
+             <section class="w-1/4">
+                <img src="src/img/debby-hudson-ERb-JXVwAfo-unsplash.jpg" alt="">
+ 
+                <h1>Filter AI</h1>
+ 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum sed delectus sapiente inventore, doloremque necessitatibus. Autem, assumenda!</p>
+             </section>
 
-        </section>
-    </main>
-
-    <main class="bg-slate-700">
-        <section class="flex flex-col gap-3">
-            <section class="mx-5 py-4 flex flex-col gap-2">
-                <img class="w-16 h-16 rounded-full" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="">
-                <h2 class="text-yellow-300">Lorem, ipsum dolor.</h2>
-                <h3 class="font-light text-sm">Lorem, ipsum dolor.</h3>
-                <p class="font-extralight text-xs">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas rem adipisci veritatis ut quod?"</p>
-            </section>
-            <section class="mx-5 py-4 flex flex-col gap-2">
-                <img class="w-16 h-16 rounded-full" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="">
-                <h2 class="text-yellow-300">Lorem, ipsum dolor.</h2>
-                <h3 class="font-light text-sm">Lorem, ipsum dolor.</h3>
-                <p class="font-extralight text-xs">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas rem adipisci veritatis ut quod?"</p>
-            </section>
-            <section class="mx-5 py-4 flex flex-col gap-2">
-                <img class="w-16 h-16 rounded-full" src="src/img/martin-wettstein-fgG7Bg0w4NI-unsplash (1).jpg" alt="">
-                <h2 class="text-yellow-300">Lorem, ipsum dolor.</h2>
-                <h3 class="font-light text-sm">Lorem, ipsum dolor.</h3>
-                <p class="font-extralight text-xs">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas rem adipisci veritatis ut quod?"</p>
-            </section>
-        </section>
-    </main>
-
-
-    <footer class="flex gap-2 justify-around py-10 flex-wrap mx-5">
-
-        <section class="">
-            <ul class="flex flex-col gap-2">
-                <li>lorem</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-            </ul>
-        </section>
-
-        <section>
-            <ul class="flex flex-col gap-2">
-                <li>lorem</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-            </ul>
-        </section>
-
-        <section>
-            <ul class="flex flex-col gap-2">
-                <li>lorem</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-                <li class="font-extralight text-sm">Lorem, ipsum dolor.</li>
-            </ul>
-        </section>
-
-    </footer>
-
-    <script>
-        const btn = document.querySelector('button.mobile-menu-button');
-        const menu = document.querySelector('.mobile-menu');
-    
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-    </script>
+             <section class="w-1/4">
+                <img src="src/img/lewis-keegan-oB2aEeE8s4A-unsplash.jpg" alt="">
+ 
+                <h1>Filter AI</h1>
+ 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum sed delectus sapiente inventore, doloremque necessitatibus. Autem, assumenda!</p>
+             </section>
+       </section>
+   </main>
 
 </body>
 </html>
